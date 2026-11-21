@@ -19,6 +19,17 @@ BASE = Path(__file__).parent
 st.session_state.setdefault("L", "English")
 
 
+def locate(stem, ext):
+    for d in (BASE / "data", BASE):
+        hits = sorted(d.glob(stem + "*" + ext)) if d.exists() else []
+        if hits:
+            return hits[0]
+    found = sorted(p.relative_to(BASE).as_posix() for p in BASE.rglob("*") if p.is_file() and ".git" not in p.parts)[:40]
+    st.error("Data file missing: " + stem + ext + ". Upload it into a folder called data in your GitHub repository. Files the app can see: " + ", ".join(found))
+    st.stop()
+
+
+
 def t(en, cy):
     return cy if st.session_state.get("L") == "Cymraeg" else en
 
@@ -27,8 +38,10 @@ def _setlang():
     st.session_state["L"] = st.session_state.get("lang_w") or "English"
 
 
-def topbar():
-    c = st.columns([6, 2])
+def topbar(brand=True):
+    c = st.columns([5, 2.2], vertical_alignment="center")
+    if brand:
+        c[0].markdown('<div class="brand">Clearway Cardiff</div>', unsafe_allow_html=True)
     c[1].segmented_control("Language / Iaith", ["English", "Cymraeg"], key="lang_w", default=st.session_state["L"],
                            on_change=_setlang, label_visibility="collapsed")
 
@@ -47,9 +60,13 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;color:@INK}
 h1,h2,h3{font-family:'Source Serif 4',Georgia,serif;color:@NAVY;letter-spacing:-.01em}
 #MainMenu,footer,[data-testid="stAppDeployButton"],[data-testid="stToolbarActions"],[data-testid="stDecoration"]{display:none!important}
 header[data-testid="stHeader"]{background:#fff;border-bottom:3px solid @RED;box-shadow:0 2px 10px rgba(0,0,0,.06)}
-header[data-testid="stHeader"]::before{content:"Clearway Cardiff";position:absolute;left:28px;top:50%;transform:translateY(-50%);
- font:700 1.25rem 'Source Serif 4',Georgia,serif;color:@NAVY}
-.block-container{max-width:1120px;padding-top:2rem}
+.block-container{max-width:1120px;padding-top:5.5rem}
+.brand{font:700 1.7rem 'Source Serif 4',Georgia,serif;color:@NAVY;line-height:1.2}
+div[data-testid="stVerticalBlockBorderWrapper"]{position:relative;transition:box-shadow .2s,transform .2s}
+div[data-testid="stVerticalBlockBorderWrapper"]:hover{box-shadow:0 10px 26px rgba(10,61,36,.14)}
+a[data-testid="stPageLink-NavLink"]{padding:0;background:transparent}
+a[data-testid="stPageLink-NavLink"]::after{content:"";position:absolute;inset:0;z-index:2}
+a[data-testid="stPageLink-NavLink"] p{font-family:'Source Serif 4',Georgia,serif;font-size:1.45rem;font-weight:700;color:@NAVY}
 .hero{background:linear-gradient(100deg,rgba(10,61,36,.95) 0%,rgba(10,61,36,.80) 42%,rgba(10,61,36,.15) 100%),url(@CASTLE) center/cover,@NAVY;
  color:#fff;border-radius:26px;padding:84px 52px;min-height:430px;margin-bottom:18px;box-shadow:0 14px 40px rgba(10,61,36,.25)}
 .hero h1{color:#fff;font-size:3.6rem;margin:14px 0 14px;line-height:1.05}.hero p{font-size:1.2rem;max-width:560px;margin:0;opacity:.96}
@@ -75,8 +92,8 @@ st.markdown("<style>" + CSS + "</style>", unsafe_allow_html=True)
 # ---------------------------------------------------------------- data
 @st.cache_data
 def load():
-    geo = json.loads((BASE / "data/cardiff_lsoa.geojson").read_text())
-    raw = pd.read_csv(BASE / "data/audit_streets.csv", dtype=str)
+    geo = json.loads(locate("cardiff_lsoa", ".geojson").read_text())
+    raw = pd.read_csv(locate("audit_streets", ".csv"), dtype=str)
     num = raw.copy()
     for q in INDICATORS:
         if q in ("Q5", "Q6"):
@@ -177,7 +194,7 @@ def footer():
 
 # ---------------------------------------------------------------- pages
 def home():
-    topbar()
+    topbar(False)
     eyebrow = t("Street accessibility in Cardiff", "Hygyrchedd strydoedd yng Nghaerdydd")
     lead = t("How easy is your street to walk? See how every Cardiff neighbourhood scores for blind and partially sighted pedestrians, and tell us what you see on your own street.",
              "Pa mor hawdd yw cerdded eich stryd? Gweler sut mae pob cymdogaeth yng Nghaerdydd yn sgorio i gerddwyr dall a rhannol ddall, a dywedwch wrthym beth welwch chi ar eich stryd eich hun.")
@@ -194,10 +211,10 @@ def home():
              ("📣", t("Complaints board", "Bwrdd cwynion"), t("See what people are reporting, and when.", "Gweler beth mae pobl yn ei adrodd, a phryd."), "complaints"),
              ("📖", t("Findings", "Canfyddiadau"), t("What the research found, with an Easy Read version.", "Beth ddaeth i'r amlwg o'r ymchwil, gyda fersiwn Hawdd ei Darllen."), "findings")]
     for col, (ic, ti, de, pg) in zip(st.columns(4), tiles):
-        with col.container(border=True, height=250):
-            st.markdown('<div class="tile">' + ic + '</div><h3>' + ti + '</h3><p class="lab">' + de + '</p>', unsafe_allow_html=True)
-            if st.button(t("Open", "Agor"), key="t_" + pg):
-                st.switch_page(PAGES[pg])
+        with col.container(border=True, height=270):
+            st.markdown('<div class="tile">' + ic + '</div>', unsafe_allow_html=True)
+            st.page_link(PAGES[pg], label=ti + "  →")
+            st.markdown('<p class="lab">' + de + '</p>', unsafe_allow_html=True)
     quote = t("Cars on pavements and clutter on the footway force blind and partially sighted people into the road. Your report keeps this picture honest and current.",
               "Mae ceir ar balmentydd ac annibendod ar y troedffordd yn gorfodi pobl ddall a rhannol ddall i'r ffordd. Mae eich adroddiad yn cadw'r darlun hwn yn gywir ac yn gyfredol.")
     small = t("Reports are anonymous. Only the neighbourhood, type, rating and time of day are stored.",
