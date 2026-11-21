@@ -16,32 +16,60 @@ except Exception:
 st.set_page_config(page_title="Clearway Cardiff", page_icon="🚶", layout="wide", initial_sidebar_state="collapsed")
 
 BASE = Path(__file__).parent
-NAVY, TEAL, SAND, CLAY, OCHRE, INK = "#0E3B43", "#1F6F78", "#F7F3EA", "#A8553B", "#C98B2B", "#1D2B33"
-SCALE = [[0, CLAY], [0.5, "#EADFC8"], [1, TEAL]]
+st.session_state.setdefault("L", "English")
+
+
+def t(en, cy):
+    return cy if st.session_state.get("L") == "Cymraeg" else en
+
+
+def _setlang():
+    st.session_state["L"] = st.session_state.get("lang_w") or "English"
+
+
+def topbar():
+    c = st.columns([6, 2])
+    c[1].segmented_control("Language / Iaith", ["English", "Cymraeg"], key="lang_w", default=st.session_state["L"],
+                           on_change=_setlang, label_visibility="collapsed")
+
+NAVY, TEAL, SAND, CLAY, OCHRE, INK = "#0A3D24", "#00843D", "#FBF8F1", "#C8102E", "#C98B2B", "#1B2A22"
+CASTLE = "https://commons.wikimedia.org/wiki/Special:FilePath/Cardiff_Castle_-_2022-08-17.jpg?width=1600"
+FLAG = "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Wales.svg?width=200"
+SCALE = [[0, CLAY], [0.5, "#F3EBD3"], [1, TEAL]]
 PRIOR = 5  # the audit counts as this many reports
 INDICATORS = {"Q1": "Footway condition", "Q2": "Street clutter", "Q3": "Pavement parking", "Q4": "Lip-free dropped kerb",
               "Q5": "Dropped kerb present", "Q6": "Tactile paving present", "Q7": "Tactile paving condition",
               "Q8": "Footway width", "Q9": "Signage", "Q12": "No street furniture obstruction"}
 
-st.markdown(f"""<style>
+CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=Inter:wght@400;500;600&display=swap');
-html,body,[class*="css"]{{font-family:'Inter',sans-serif;color:{INK}}}
-h1,h2,h3{{font-family:'Source Serif 4',Georgia,serif;color:{NAVY};letter-spacing:-.01em}}
-#MainMenu,footer,[data-testid="stToolbar"],[data-testid="stDecoration"]{{visibility:hidden;height:0}}
-header[data-testid="stHeader"]{{background:#fff;border-bottom:1px solid #E3DCCB}}
-.block-container{{max-width:1120px;padding-top:2rem}}
-.hero{{background:linear-gradient(135deg,{NAVY} 0%,{TEAL} 100%);color:#fff;border-radius:20px;padding:64px 48px;margin-bottom:28px}}
-.hero h1{{color:#fff;font-size:3rem;margin:0 0 12px}}.hero p{{font-size:1.2rem;max-width:660px;opacity:.95;margin:0}}
-.eyebrow{{text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;color:#E9D8B0;margin-bottom:10px}}
-.card{{background:#fff;border:1px solid #E3DCCB;border-radius:16px;padding:22px;height:100%}}
-.card h3{{margin-top:0;font-size:1.25rem}}.num{{font-family:'Source Serif 4',serif;font-size:2.2rem;color:{TEAL};font-weight:700;line-height:1.1}}
-.lab{{color:#5B6A72;font-size:.9rem}}.pill{{display:inline-block;background:#E8F1F0;color:{NAVY};padding:3px 12px;border-radius:99px;font-size:.85rem;margin-right:6px}}
-.foot{{margin-top:48px;padding-top:16px;border-top:1px solid #E3DCCB;color:#5B6A72;font-size:.85rem}}
-div[data-testid="stMetric"]{{background:#fff;border:1px solid #E3DCCB;border-radius:14px;padding:14px 18px}}
-.stButton>button,.stFormSubmitButton>button{{background:{TEAL};color:#fff;border:0;border-radius:10px;padding:.55rem 1.3rem;font-weight:600}}
-.stButton>button:hover,.stFormSubmitButton>button:hover{{background:{NAVY};color:#fff}}
-a:focus,button:focus-visible{{outline:3px solid {OCHRE}!important}}
-</style>""", unsafe_allow_html=True)
+html,body,[class*="css"]{font-family:'Inter',sans-serif;color:@INK}
+h1,h2,h3{font-family:'Source Serif 4',Georgia,serif;color:@NAVY;letter-spacing:-.01em}
+#MainMenu,footer,[data-testid="stAppDeployButton"],[data-testid="stToolbarActions"],[data-testid="stDecoration"]{display:none!important}
+header[data-testid="stHeader"]{background:#fff;border-bottom:3px solid @RED;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+header[data-testid="stHeader"]::before{content:"Clearway Cardiff";position:absolute;left:28px;top:50%;transform:translateY(-50%);
+ font:700 1.25rem 'Source Serif 4',Georgia,serif;color:@NAVY}
+.block-container{max-width:1120px;padding-top:2rem}
+.hero{background:linear-gradient(100deg,rgba(10,61,36,.95) 0%,rgba(10,61,36,.80) 42%,rgba(10,61,36,.15) 100%),url(@CASTLE) center/cover,@NAVY;
+ color:#fff;border-radius:26px;padding:84px 52px;min-height:430px;margin-bottom:18px;box-shadow:0 14px 40px rgba(10,61,36,.25)}
+.hero h1{color:#fff;font-size:3.6rem;margin:14px 0 14px;line-height:1.05}.hero p{font-size:1.2rem;max-width:560px;margin:0;opacity:.96}
+.hero img{height:30px;border-radius:4px;border:1px solid rgba(255,255,255,.6);vertical-align:middle;margin-right:12px}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.8rem;color:#F1E3B8;font-weight:600}
+.stripe{height:6px;border-radius:3px;margin:6px 0 26px;background:linear-gradient(90deg,#fff 0 33%,@TEAL 33% 66%,@RED 66%);border:1px solid #E5DECF}
+.tile{font-size:2rem;line-height:1}.tile+h3{margin:.3rem 0 .2rem;font-size:1.2rem}.lab{color:#5B6A72;font-size:.95rem}
+div[data-testid="stVerticalBlockBorderWrapper"]{border-radius:18px;background:#fff;border-color:#E5DECF}
+.band{background:@NAVY;color:#fff;border-radius:20px;padding:34px 40px;margin-top:22px;font-family:'Source Serif 4',serif;font-size:1.45rem;line-height:1.4}
+.band small{display:block;margin-top:10px;font:500 .9rem Inter,sans-serif;opacity:.8}
+.foot{margin-top:48px;padding-top:16px;border-top:1px solid #E5DECF;color:#5B6A72;font-size:.85rem}
+div[data-testid="stMetric"]{background:#fff;border:1px solid #E5DECF;border-radius:14px;padding:14px 18px}
+.stButton>button,.stFormSubmitButton>button{background:@TEAL;color:#fff;border:0;border-radius:12px;padding:.6rem 1.4rem;font-weight:600}
+.stButton>button:hover,.stFormSubmitButton>button:hover{background:@NAVY;color:#fff}
+.stButton>button[kind="primary"],button[data-testid="stBaseButton-primary"]{background:@RED;color:#fff}
+a:focus,button:focus-visible{outline:3px solid @OCHRE!important}
+"""
+for _k, _v in {"@INK": INK, "@NAVY": NAVY, "@TEAL": TEAL, "@RED": CLAY, "@OCHRE": OCHRE, "@CASTLE": CASTLE}.items():
+    CSS = CSS.replace(_k, _v)
+st.markdown("<style>" + CSS + "</style>", unsafe_allow_html=True)
 
 
 # ---------------------------------------------------------------- data
@@ -142,38 +170,47 @@ def compliance_chart():
 
 def footer():
     st.markdown('<div class="foot">Clearway Cardiff turns an MSc street-level accessibility audit into a public tool. '
-                'Contains data from the Welsh Index of Multiple Deprivation 2025 and ONS boundaries, used under the Open Government Licence.</div>',
+                'Contains data from the Welsh Index of Multiple Deprivation 2025 and ONS boundaries, used under the Open Government Licence. '
+                'Cardiff Castle photo: The wub, CC BY-SA 4.0, via Wikimedia Commons. Flag of Wales: Wikimedia Commons.</div>',
                 unsafe_allow_html=True)
 
 
 # ---------------------------------------------------------------- pages
 def home():
-    lv = live()
-    total = int(lv["n"].sum()) if lv is not None and len(lv) else 0
-    st.markdown('<div class="hero"><div class="eyebrow">Street accessibility in Cardiff</div><h1>Clearway Cardiff</h1>'
-                '<p>Every neighbourhood in Cardiff, scored on how easy its streets are to walk for blind and partially sighted people. '
-                'Explore the audit, then tell us what you see on your own street.</p></div>', unsafe_allow_html=True)
-    c = st.columns(4)
-    for col, (n, l) in zip(c, [("203", "neighbourhoods audited"), ("406", "streets surveyed"), ("12", "indicators per street"), (str(total), "community reports (last 6 months)")]):
-        col.markdown(f'<div class="card"><div class="num">{n}</div><div class="lab">{l}</div></div>', unsafe_allow_html=True)
-    st.write("")
-    c = st.columns(3)
-    for col, (t, d) in zip(c, [("Explore the data", "Layered maps of the audit, the full street-by-street dataset and how it compares with deprivation."),
-                               ("Know your LSOA", "Enter a postcode, street or use your location to find your neighbourhood area."),
-                               ("Report what you see", "Log pavement parking and street clutter in under a minute. No account needed.")]):
-        col.markdown(f'<div class="card"><h3>{t}</h3><p>{d}</p></div>', unsafe_allow_html=True)
-    st.write("")
-    st.subheader("How it works")
-    st.markdown("The street audit sets a baseline for every neighbourhood. Two measures, pavement parking and street clutter, change as the public "
-                f"reports them. Each live score blends the audit result with recent reports, so a handful of reports nudges the map and "
-                f"many reports move it. All other indicators are fixed and refreshed at each half-yearly audit.")
+    topbar()
+    eyebrow = t("Street accessibility in Cardiff", "Hygyrchedd strydoedd yng Nghaerdydd")
+    lead = t("How easy is your street to walk? See how every Cardiff neighbourhood scores for blind and partially sighted pedestrians, and tell us what you see on your own street.",
+             "Pa mor hawdd yw cerdded eich stryd? Gweler sut mae pob cymdogaeth yng Nghaerdydd yn sgorio i gerddwyr dall a rhannol ddall, a dywedwch wrthym beth welwch chi ar eich stryd eich hun.")
+    st.markdown('<div class="hero"><div class="eyebrow"><img src="' + FLAG + '" alt="Flag of Wales">' + eyebrow +
+                '</div><h1>Clearway Cardiff</h1><p>' + lead + '</p></div>', unsafe_allow_html=True)
+    c = st.columns([1.2, 1.2, 3])
+    if c[0].button(t("Report what you see", "Adrodd beth welwch chi"), type="primary"):
+        st.switch_page(PAGES["report"])
+    if c[1].button(t("Find my neighbourhood", "Dod o hyd i'm cymdogaeth")):
+        st.switch_page(PAGES["know"])
+    st.markdown('<div class="stripe"></div>', unsafe_allow_html=True)
+    tiles = [("🗺️", t("Explore the map", "Archwilio'r map"), t("Layered maps of every neighbourhood and the full street audit.", "Mapiau haenog o bob cymdogaeth a'r archwiliad stryd llawn."), "dashboard"),
+             ("📍", t("Know your LSOA", "Adnabod eich LSOA"), t("Find your neighbourhood area from a postcode, street or your location.", "Dewch o hyd i'ch ardal o god post, stryd neu eich lleoliad."), "know"),
+             ("📣", t("Complaints board", "Bwrdd cwynion"), t("See what people are reporting, and when.", "Gweler beth mae pobl yn ei adrodd, a phryd."), "complaints"),
+             ("📖", t("Findings", "Canfyddiadau"), t("What the research found, with an Easy Read version.", "Beth ddaeth i'r amlwg o'r ymchwil, gyda fersiwn Hawdd ei Darllen."), "findings")]
+    for col, (ic, ti, de, pg) in zip(st.columns(4), tiles):
+        with col.container(border=True, height=250):
+            st.markdown('<div class="tile">' + ic + '</div><h3>' + ti + '</h3><p class="lab">' + de + '</p>', unsafe_allow_html=True)
+            if st.button(t("Open", "Agor"), key="t_" + pg):
+                st.switch_page(PAGES[pg])
+    quote = t("Cars on pavements and clutter on the footway force blind and partially sighted people into the road. Your report keeps this picture honest and current.",
+              "Mae ceir ar balmentydd ac annibendod ar y troedffordd yn gorfodi pobl ddall a rhannol ddall i'r ffordd. Mae eich adroddiad yn cadw'r darlun hwn yn gywir ac yn gyfredol.")
+    small = t("Reports are anonymous. Only the neighbourhood, type, rating and time of day are stored.",
+              "Mae adroddiadau'n ddienw. Dim ond y gymdogaeth, y math, y sgôr ac adeg y dydd a gedwir.")
+    st.markdown('<div class="band">' + quote + '<small>' + small + '</small></div>', unsafe_allow_html=True)
     footer()
 
 
 def dashboard():
     geo, raw, num, _ = load()
     L = lsoa_table()
-    st.title("Dashboard")
+    topbar()
+    st.title(t("Explore the map", "Archwilio'r map"))
     lv = live()
     c = st.columns(4)
     c[0].metric("LSOAs audited", int(L["sladi"].notna().sum()))
@@ -204,8 +241,8 @@ def dashboard():
     st.caption("Q10 (crossing type) and Q11 (bus stop presence) were recorded as context and are excluded from the score.")
     st.subheader("Full audit dataset")
     q = st.text_input("Filter by street or area name")
-    t = raw if not q else raw[raw["street"].str.contains(q, case=False) | raw["area"].str.contains(q, case=False)]
-    st.dataframe(t, width="stretch", height=380)
+    tbl = raw if not q else raw[raw["street"].str.contains(q, case=False) | raw["area"].str.contains(q, case=False)]
+    st.dataframe(tbl, width="stretch", height=380)
     st.download_button("Download full dataset (CSV)", raw.to_csv(index=False), "clearway_audit_406_streets.csv", "text/csv")
     footer()
 
@@ -242,12 +279,13 @@ def by_street(name):
 
 
 def know():
-    st.title("Know your LSOA")
+    topbar()
+    st.title(t("Know your LSOA", "Adnabod eich LSOA"))
     st.write("An LSOA is a small neighbourhood area of around 1,500 people, the unit used for official statistics. "
              "Enter a Cardiff postcode or street name. Streets that cross several LSOAs show every option.")
-    q = st.text_input("Postcode or street name", placeholder="e.g. CF24 3AA or Hornchurch Close")
+    q = st.text_input(t("Postcode or street name", "Cod post neu enw stryd"), placeholder="e.g. CF24 3AA or Hornchurch Close")
     c1, c2 = st.columns([1, 3])
-    go = c1.button("Find my LSOA")
+    go = c1.button(t("Find my LSOA", "Dod o hyd i'm LSOA"))
     with c2:
         loc = streamlit_geolocation() if streamlit_geolocation else None
         st.caption("Or use your location. It is checked on the server only to find the LSOA and is not stored.")
@@ -282,44 +320,52 @@ def know():
     footer()
 
 
-CLUTTER = {"Not reporting clutter": None, "0: a lot of clutter": 0, "0.5: at least one item": 0.5, "1: clear, no clutter": 1}
-PARKING = {"Not reporting parking": None, "0: more than 2 cars on the pavement": 0, "0.5: at least 1 car": 0.5, "1: no cars": 1}
+def opts():
+    c = {t("Not reporting clutter", "Ddim yn adrodd annibendod"): None, t("0: a lot of clutter", "0: llawer o annibendod"): 0,
+         t("0.5: at least one item", "0.5: o leiaf un eitem"): 0.5, t("1: clear, no clutter", "1: clir, dim annibendod"): 1}
+    p = {t("Not reporting parking", "Ddim yn adrodd parcio"): None, t("0: more than 2 cars on the pavement", "0: mwy na 2 gar ar y palmant"): 0,
+         t("0.5: at least 1 car", "0.5: o leiaf 1 car"): 0.5, t("1: no cars", "1: dim ceir"): 1}
+    return c, p
 
 
 def report():
-    st.title("Report what you saw")
-    st.write("Rate one or both. It takes under a minute and needs no account. Not sure which LSOA you are in? Use the Know your LSOA page.")
+    topbar()
+    st.title(t("Report what you saw", "Adrodd beth welsoch chi"))
+    st.write(t("Rate one or both. It takes under a minute and needs no account. Not sure which LSOA you are in? Use Know your LSOA first.",
+               "Graddiwch un neu'r ddau. Mae'n cymryd llai na munud ac nid oes angen cyfrif. Ddim yn siŵr pa LSOA ydych chi ynddo? Defnyddiwch Adnabod eich LSOA yn gyntaf."))
     L = load()[3]
     codes = sorted(L.index, key=lambda c: L.loc[c, "name"])
+    CL, PK = opts()
+    names = {"morning": t("Morning", "Bore"), "afternoon": t("Afternoon", "Prynhawn"), "evening": t("Evening", "Min nos")}
     with st.form("report"):
-        code = st.selectbox("Neighbourhood (LSOA)", codes, format_func=fmt, key="rep_lsoa")
-        a = st.radio("Street clutter (bins, signs, boards, other items)", list(CLUTTER), index=0)
-        b = st.radio("Pavement parking", list(PARKING), index=0)
-        t = st.radio("Time of day", ["Morning", "Afternoon", "Evening"], index=None, horizontal=True)
-        ok = st.form_submit_button("Send report")
+        code = st.selectbox(t("Neighbourhood (LSOA)", "Cymdogaeth (LSOA)"), codes, format_func=fmt, key="rep_lsoa")
+        a = st.radio(t("Street clutter (bins, signs, boards, other items)", "Annibendod ar y stryd (biniau, arwyddion, byrddau, eitemau eraill)"), list(CL), index=0)
+        b = st.radio(t("Pavement parking", "Parcio ar y palmant"), list(PK), index=0)
+        tod = st.radio(t("Time of day", "Adeg o'r dydd"), list(names), format_func=names.get, index=None, horizontal=True)
+        ok = st.form_submit_button(t("Send report", "Anfon adroddiad"))
     if ok:
-        rows = [{"lsoa": code, "kind": k, "severity": v[x], "tod": (t or "").lower()}
-                for k, v, x in (("clutter", CLUTTER, a), ("parking", PARKING, b)) if v[x] is not None]
+        rows = [{"lsoa": code, "kind": k, "severity": v[x], "tod": tod} for k, v, x in (("clutter", CL, a), ("parking", PK, b)) if v[x] is not None]
         url, key = sb()
-        if not rows or not t:
-            st.error("Choose at least one rating and a time of day.")
+        if not rows or not tod:
+            st.error(t("Choose at least one rating and a time of day.", "Dewiswch o leiaf un sgôr ac adeg o'r dydd."))
         elif time.time() - st.session_state.get("last", 0) < 60:
-            st.warning("Please wait a minute before sending another report.")
+            st.warning(t("Please wait a minute before sending another report.", "Arhoswch funud cyn anfon adroddiad arall."))
         elif not url:
-            st.error("Live reporting is not connected yet.")
+            st.error(t("Live reporting is not connected yet.", "Nid yw adrodd byw wedi'i gysylltu eto."))
         else:
-            r = requests.post(f"{url}/rest/v1/reports", headers={**headers(key), "Prefer": "return=minimal"}, json=rows, timeout=10)
+            r = requests.post(url + "/rest/v1/reports", headers={**headers(key), "Prefer": "return=minimal"}, json=rows, timeout=10)
             if r.ok:
                 st.session_state["last"] = time.time()
                 live.clear()
-                st.success("Thank you. Your report has been added to the maps and complaints board.")
+                st.success(t("Thank you. Your report has been added to the maps and complaints board.", "Diolch. Ychwanegwyd eich adroddiad at y mapiau a'r bwrdd cwynion."))
             else:
-                st.error(f"Could not save the report (error {r.status_code}).")
+                st.error("Error " + str(r.status_code))
     footer()
 
 
 def complaints():
-    st.title("Complaints board")
+    topbar()
+    st.title(t("Complaints board", "Bwrdd cwynion"))
     lv = live()
     L = load()[3]
     if lv is None:
@@ -330,9 +376,9 @@ def complaints():
     d = lv if area == "All Cardiff" else lv[lv.lsoa == area]
     tot = d.groupby("kind")[["n", "morning", "afternoon", "evening"]].sum().reindex(["clutter", "parking"]).fillna(0)
     m = st.columns(4)
-    m[0].metric("Total reports", int(tot["n"].sum()))
-    m[1].metric("Street clutter", int(tot.loc["clutter", "n"]))
-    m[2].metric("Pavement parking", int(tot.loc["parking", "n"]))
+    m[0].metric(t("Total reports", "Cyfanswm adroddiadau"), int(tot["n"].sum()))
+    m[1].metric(t("Street clutter", "Annibendod"), int(tot.loc["clutter", "n"]))
+    m[2].metric(t("Pavement parking", "Parcio ar y palmant"), int(tot.loc["parking", "n"]))
     m[3].metric("LSOAs with reports", d["lsoa"].nunique())
     tt = pd.DataFrame({"Time of day": ["Morning", "Afternoon", "Evening"] * 2,
                        "Type": ["Street clutter"] * 3 + ["Pavement parking"] * 3,
@@ -340,7 +386,7 @@ def complaints():
     fig = px.bar(tt, x="Time of day", y="Reports", color="Type", barmode="group", color_discrete_map={"Street clutter": OCHRE, "Pavement parking": TEAL})
     fig.update_layout(height=340, plot_bgcolor="#fff", margin=dict(l=0, r=0, t=10, b=0), legend_title=None)
     st.plotly_chart(fig, width="stretch")
-    st.subheader("Most reports across Cardiff")
+    st.subheader(t("Most reports across Cardiff", "Y mwyaf o adroddiadau yng Nghaerdydd"))
     top = lv.groupby("lsoa")["n"].sum().sort_values(ascending=False).head(10).reset_index()
     if len(top):
         top["LSOA"] = top["lsoa"].map(lambda c: L.loc[c, "name"] if c in L.index else c)
@@ -354,8 +400,9 @@ def complaints():
 
 
 def findings():
-    st.title("Findings")
-    easy = st.toggle("Easy Read version")
+    topbar()
+    st.title(t("Findings", "Canfyddiadau"))
+    easy = st.toggle(t("Easy Read version", "Fersiwn Hawdd ei Darllen"))
     if easy:
         st.markdown("""
 ### What we did
@@ -416,9 +463,9 @@ Money spent only on poorer areas would not fix the worst pavements. Cardiff need
     footer()
 
 
-PAGES = {"home": st.Page(home, title="Home", default=True), "dashboard": st.Page(dashboard, title="Dashboard"),
-         "know": st.Page(know, title="Know your LSOA"), "report": st.Page(report, title="Report"),
-         "complaints": st.Page(complaints, title="Complaints board"), "findings": st.Page(findings, title="Findings")}
+PAGES = {"home": st.Page(home, title=t("Home", "Hafan"), default=True), "dashboard": st.Page(dashboard, title=t("Explore", "Archwilio")),
+         "know": st.Page(know, title=t("Know your LSOA", "Adnabod eich LSOA")), "report": st.Page(report, title=t("Report", "Adrodd")),
+         "complaints": st.Page(complaints, title=t("Complaints board", "Bwrdd cwynion")), "findings": st.Page(findings, title=t("Findings", "Canfyddiadau"))}
 try:
     nav = st.navigation(list(PAGES.values()), position="top")
 except TypeError:
