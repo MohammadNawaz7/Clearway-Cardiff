@@ -1,0 +1,407 @@
+lsoa_code,area,street,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,wimd_rank,phys_rank,access_rank,sladi_score,sladi_rank
+W01001747,Fairwater 1,Hornchurch close,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,136,148,119,0.7632,102
+W01001747,Fairwater 1,Restways Close,1,1,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,136,148,119,0.7105,102
+W01001748,Fairwater 2,Cosheston Road,0,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,67,194,143,0.6842,56
+W01001748,Fairwater 2,Carter Place,0.5,1,0.5,0.5,Yes,Yes,0.5,0.5,0.5,Controlled,Yes,No,67,194,143,0.6842,56
+W01001749,Fairwater 3,Cedar Grove,1,1,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,75,216,53,0.8421,50
+W01001749,Fairwater 3,Elderburry road,0,0,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,75,216,53,0.5,50
+W01001750,Fairwater 4,Holly Road,0.5,0.5,0,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,44,158,153,0.6579,46
+W01001750,Fairwater 4,Fern Place,1,0.5,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,44,158,153,0.6579,46
+W01001751,Fairwater 5,Orange Grove,1,1,0.5,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,32,205,39,0.7368,19
+W01001751,Fairwater 5,Willowdale Road,0.5,0.5,0.5,0,No,Yes,0.5,0.5,0,Uncontrolled,N/A,No,32,205,39,0.2947,19
+W01001752,Fairwater 6,Fairways Crescent,1,1,1,0.5,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,159,115,202,0.4789,2
+W01001752,Fairwater 6,Wellright road,1,0.5,0,0,No,No,0,0.5,0,Uncontrolled,N/A,No,159,115,202,0.0632,2
+W01001753,Fairwater 7,Shamrock Road,0.5,0,0.5,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,35,190,7,0.5263,45
+W01001753,Fairwater 7,Glan ely Close,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,35,190,7,0.7632,45
+W01001754,Fairwater 8,Llangyndir Road,1,1,0.5,1,Yes,Yes,1,1,0.5,Controlled,Yes,No,130,70,115,0.8684,73
+W01001754,Fairwater 8,Llangattock Road,0.5,0.5,0,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,130,70,115,0.5526,73
+W01001785,Llandaff North 1,Aberdulais Road,1,0.5,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,34,104,184,0.7368,129
+W01001785,Llandaff North 1,Bacton Road,1,1,1,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,34,104,184,0.7895,129
+W01001786,Llandaff North 2,Manod Road,1,0,0.5,0,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,122,112,185,0.5526,56
+W01001786,Llandaff North 2,Bala Road,0.5,0.5,1,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,Yes,122,112,185,0.8158,56
+W01001787,Llandaff North 3,Appledore Road,1,0.5,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,60,79,13,0.6842,93
+W01001787,Llandaff North 3,Aberporth Road,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,60,79,13,0.7632,93
+W01001788,Llandaff North 4,Aberdore Road,0.5,1,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,47,66,169,0.8158,129
+W01001788,Llandaff North 4,Aberbran Road,1,0.5,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,47,66,169,0.7105,129
+W01001789,Llandaff North 5,Evansfield Road,1,0,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,148,74,218,0.7368,177
+W01001789,Llandaff North 5,Hawthorn Road West,1,1,1,0.5,Yes,Yes,1,1,1,Controlled,Yes,No,148,74,218,0.9211,177
+W01001790,Llandaff North 6,Corwen Crescent,1,1,1,1,Yes,Yes,1,1,0.5,Controlled,Yes,No,79,107,186,0.9211,171
+W01001790,Llandaff North 6,Cornelly Street,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,79,107,186,0.7105,171
+W01001855,Riverside 1,Trevethick Street,1,0.5,0.5,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,No,39,26,48,0.7632,138
+W01001855,Riverside 1,Rennie Street,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,39,26,48,0.7632,138
+W01001856,Riverside 2,Clare Place,1,1,1,0.5,Yes,No,0,0.5,0,Uncontrolled,N/A,Yes,24,3,74,0.2837,7
+W01001856,Riverside 2,Glucester Street,1,0,1,0.5,Yes,Yes,0,1,0.5,Controlled,N/A,No,24,3,74,0.4421,7
+W01001857,Riverside 3,Lyndhurst Street,1,0.5,1,0,No,Yes,1,1,0,Uncontrolled,N/A,No,19,7,121,0.4421,9
+W01001857,Riverside 3,Littleton Street,0.5,0.5,1,0,No,Yes,0.5,0.5,0,Controlled,N/A,Yes,19,7,121,0.3684,9
+W01001858,Riverside 4,Dogo Street,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,139,56,92,0.7895,177
+W01001858,Riverside 4,Teilo Street,0.5,1,1,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,Yes,139,56,92,0.8684,177
+W01001859,Riverside 5,Beacon Street,1,0.5,0.5,1,Yes,Yes,0.5,1,0,Uncontrolled,N/A,No,149,39,155,0.7105,25
+W01001859,Riverside 5,Bloom Street,0.5,0.5,1,0,No,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,149,39,155,0.3684,25
+W01001860,Riverside 6,Glynne Street,0.5,0,0.5,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,147,41,200,0.7105,86
+W01001860,Riverside 6,Springfield Place,0.5,0,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,147,41,200,0.7368,86
+W01001861,Riverside 7,Hamilton Street,0.5,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,137,17,85,0.8421,193
+W01001861,Riverside 7,Talbot Street,0.5,1,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,137,17,85,0.8684,193
+W01001862,Riverside 8,Neville Street,1,0.5,1,1,Yes,Yes,1,1,1,Controlled,Yes,Yes,55,19,77,0.9474,17
+W01001862,Riverside 8,Mark Street,0,0.5,1,0,No,No,0,0,0,Uncontrolled,N/A,Yes,55,19,77,0.0722,17
+W01001718,Cathys 1,Florentia Street,0.5,1,1,0,No,Yes,0,0.5,0,Uncontrolled,N/A,No,109,33,176,0.2192,3
+W01001718,Cathys 1,Spencer Street,0.5,1,1,0,No,Yes,0.5,0.5,0,Uncontrolled,N/A,No,109,33,176,0.3684,3
+W01001719,Cathys 2,Cosmeston Street,0.5,0.5,1,1,Yes,Yes,0.5,1,0,Uncontrolled,N/A,No,181,99,174,0.7105,73
+W01001719,Cathys 2,Lisvane Street,1,1,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,181,99,174,0.7105,73
+W01001720,Cathys 3,May Street,1,0,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,118,13,207,0.7105,6
+W01001720,Cathys 3,Alexander Street,0,0,0,0,No,No,0,0.5,0,Uncontrolled,N/A,No,118,13,207,0.009,6
+W01001721,Cathys 4,Colum Drive,1,1,1,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,No,90,53,29,0.8684,197
+W01001721,Cathys 4,Blackweir Terrace,1,1,1,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,No,90,53,29,0.8684,197
+W01001722,Cathys 5,Darren Street,1,0.5,1,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,129,48,177,0.7632,111
+W01001722,Cathys 5,Treherbert Street,1,0.5,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,129,48,177,0.7368,111
+W01001724,Cathys 6,Castle Street,1,1,1,1,Yes,Yes,1,1,1,Controlled,Yes,Yes,124,36,182,1,203
+W01001724,Cathys 6,St. Mary Street,1,1,1,1,Yes,Yes,1,1,1,Controlled,Yes,Yes,124,36,182,1,203
+W01001725,Cathys 7,Coburn Street,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,119,47,97,0.7895,102
+W01001725,Cathys 7,Thesiger Street,1,0.5,0.5,0,Yes,Yes,0.5,0.5,0,Controlled,N/A,Yes,119,47,97,0.6842,102
+W01001726,Cathys 8,Cogan Terrace,0.5,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,112,50,171,0.6579,151
+W01001726,Cathys 8,Miskin Street,1,1,1,1,Yes,Yes,1,1,0,Uncontrolled,N/A,No,112,50,171,0.8947,151
+W01001922,Cathys 9,Tewkesbury Place,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,113,18,55,0.8421,86
+W01001922,Cathys 9,Clun Terrace,1,0.5,0.5,0,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,113,18,55,0.6053,86
+W01001759,Grangetown 1,Besemerr Road,1,1,1,1,Yes,Yes,1,1,0.5,Controlled,Yes,Yes,89,58,91,0.9737,177
+W01001759,Grangetown 1,Virgil Street,0.5,0.5,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,89,58,91,0.6842,177
+W01001760,Grangetown 2,Newport street,1,1,1,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,No,81,85,183,0.8684,162
+W01001760,Grangetown 2,Avondale Crescent,1,0.5,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,81,85,183,0.7368,162
+W01001761,Grangetown 3,Pentrebane Street,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,48,35,188,0.7105,73
+W01001761,Grangetown 3,Grange Gardens,0.5,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,48,35,188,0.7105,73
+W01001762,Grangetown 4,Kent Street,1,0.5,0.5,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,31,55,122,0.6316,111
+W01001762,Grangetown 4,Earl Street,1,1,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,31,55,122,0.8684,111
+W01001764,Grangetown 5,Channel View road,1,0,1,0,Yes,Yes,1,1,0.5,Controlled,Yes,No,54,2,162,0.7632,138
+W01001764,Grangetown 5,Beecher Avenue,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,54,2,162,0.7632,138
+W01001765,Grangetown 6,Merches Gardens,1,0.5,0.5,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,68,30,198,0.6316,73
+W01001765,Grangetown 6,Monmouth Street,1,1,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,68,30,198,0.7895,73
+W01001766,Grangetown 7,Ystrad Street,0.5,1,1,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,No,43,4,181,0.8158,143
+W01001766,Grangetown 7,Aber Street,1,0,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,43,4,181,0.7368,143
+W01001767,Grangetown 8,Rutland Street,1,1,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,52,16,215,0.7895,38
+W01001767,Grangetown 8,Somerset Street,1,0.5,1,0.5,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,52,16,215,0.4421,38
+W01001768,Grangetown 9,Dorset Street,0.5,0.5,1,0.5,Yes,Yes,1,1,0.5,Controlled,N/A,Yes,41,37,209,0.8421,162
+W01001768,Grangetown 9,Warwick Street,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,41,37,209,0.7632,162
+W01001710,Canton 2,Wembley Road,1,1,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,83,22,168,0.7105,37
+W01001710,Canton 2,York Street,0.5,0,0,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,83,22,168,0.5,37
+W01001711,Canton 3,Leckwith Avenue,1,1,0.5,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,61,28,59,0.7368,177
+W01001711,Canton 3,Broad Street,1,1,1,0.5,Yes,Yes,1,1,1,Controlled,Yes,No,61,28,59,0.9211,177
+W01001712,Canton 4,Glamorgan Street,0.5,0.5,1,0.5,Yes,Yes,0.5,1,0,Uncontrolled,N/A,No,126,82,178,0.6842,151
+W01001712,Canton 4,Rectory Road,0.5,1,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,126,82,178,0.8684,151
+W01001713,Canton 5,Brunswick Street,1,0,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,97,6,173,0.7105,68
+W01001713,Canton 5,Hanover Street,0.5,0.5,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,97,6,173,0.6842,68
+W01001714,Canton 6,Chargot Street,0.5,1,0,0,Yes,Yes,1,0.5,0.5,Controlled,Yes,No,166,31,139,0.6842,56
+W01001714,Canton 6,Pencisely Rise,0.5,0.5,0.5,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,166,31,139,0.6842,56
+W01001715,Canton 7,Egham Street,0.5,0,0,0,No,No,0,0.5,0,Uncontrolled,N/A,Yes,157,97,80,0.0451,1
+W01001715,Canton 7,Preswylfa Street,0.5,0,0,0,No,No,0,0.5,0,Uncontrolled,N/A,Yes,157,97,80,0.0451,1
+W01001716,Canton 8,Fairfield Close,0.5,1,0.5,0.5,Yes,Yes,0.5,1,0,Uncontrolled,N/A,No,153,32,107,0.6842,72
+W01001716,Canton 8,Birchfield Close,0.5,0.5,1,0.5,Yes,Yes,0.5,0.6,0,Uncontrolled,N/A,Yes,153,32,107,0.7158,72
+W01001717,Canton 9,Ethel Street,1,0.5,1,0.5,Yes,Yes,0.5,1,0,Uncontrolled,N/A,No,111,93,135,0.7368,111
+W01001717,Canton 9,Daisy Street,0.5,1,1,1,Yes,Yes,0.5,1,0,Uncontrolled,N/A,No,111,93,135,0.7632,111
+W01001694,Adamsdown 1,Copper Street,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,37,52,170,0.7895,162
+W01001694,Adamsdown 1,Emerald Street,1,0.5,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,37,52,170,0.8158,162
+W01001695,Adamsdown 2,Fitzalan Road,1,1,1,1,Yes,Yes,0.5,0.5,1,Controlled,Yes,No,58,15,65,0.8421,129
+W01001695,Adamsdown 2,Augusta Street,1,0.5,0.5,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,58,15,65,0.6842,129
+W01001696,Adamsdown 3,System Street,1,1,1,1,Yes,Yes,1,1,0,Uncontrolled,N/A,No,33,45,149,0.8947,177
+W01001696,Adamsdown 3,Comet Street,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,33,45,149,0.7632,177
+W01001697,Adamsdown 4,Cecil Street,0.5,0.5,0.5,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,59,59,63,0.5789,56
+W01001697,Adamsdown 4,Bertram Street,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,59,59,63,0.7895,56
+W01001698,Adamsdown 5,Fox Street,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,40,34,161,0.7105,111
+W01001698,Adamsdown 5,Booker Street,1,0.5,0.5,1,Yes,Yes,1,1,0,Uncontrolled,N/A,No,40,34,161,0.7895,111
+W01001869,Splott 1,Eyre Street,0.5,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,74,65,123,0.7368,111
+W01001869,Splott 1,Swinton Street,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,74,65,123,0.7632,111
+W01001870,Splott 2,Cameron Street,1,0.5,0.5,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,80,116,160,0.6842,56
+W01001870,Splott 2,Wilson Street,0,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,80,116,160,0.6842,56
+W01001871,Splott 3,Dunsmuir Road,1,1,1,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,No,15,73,83,0.8684,56
+W01001871,Splott 3,Mervyn Road,0,0.5,0,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,15,73,83,0.5,56
+W01001872,Splott 4,Adeline Street,1,0.5,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,63,51,195,0.7368,33
+W01001872,Splott 4,Marion Street,0.5,1,1,0.5,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,63,51,195,0.4421,33
+W01001873,Splott 5,Farmville Road,1,0.5,0,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,38,68,167,0.5789,56
+W01001873,Splott 5,Singleton Road,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,38,68,167,0.7895,56
+W01001874,Splott 6,Kilcatttan Street,0.5,0.5,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,7,49,10,0.6053,50
+W01001874,Splott 6,Asgog Street,1,0.5,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,7,49,10,0.7368,50
+W01001876,Splott 8,Skaithmuir Road,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,18,86,19,0.7105,68
+W01001876,Splott 8,Kenmuir Road,1,0.5,1,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,18,86,19,0.6842,68
+W01001886,Trowbridge 10,Port Madoc Road,1,0.5,0,1,Yes,Yes,1,0.5,0.5,Controlled,N/A,No,14,120,41,0.7368,68
+W01001886,Trowbridge 10,Morfa Crescent,1,0.5,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,14,120,41,0.6579,68
+W01001883,Trowbridge 7,Abergele Road,0,1,1,0.5,Yes,Yes,0.5,0.5,1,Controlled,Yes,No,21,174,89,0.7105,18
+W01001883,Trowbridge 7,Prestatyn Road,1,0,0,0,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,21,174,89,0.3132,18
+W01001881,Trowbridge 5,Meadow Lark Close,1,0.5,0,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,28,184,132,0.7105,188
+W01001881,Trowbridge 5,Ferntree drive,1,1,1,1,Yes,Yes,1,0.5,1,Controlled,N/A,Yes,28,184,132,0.9737,188
+W01001884,Trowbridge 8,Wern Fawr Lane,1,0.5,1,0,Yes,Yes,1,0.5,0,Controlled,Yes,No,2,213,26,0.7632,154
+W01001884,Trowbridge 8,Westonbirt Close,1,0.5,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,2,213,26,0.8158,154
+W01001880,Trowbridge 4,Heol Maes Eirwg,0.5,0.5,0,1,Yes,Yes,1,1,0,Controlled,Yes,No,16,142,44,0.6842,10
+W01001880,Trowbridge 4,Kember Close,1,1,0.5,1,Yes,No,0,0.5,0,Uncontrolled,N/A,No,16,142,44,0.245,10
+W01001879,Trowbridge 3,Brockhampton Road,0.5,0,0.5,1,Yes,Yes,1,0.5,0.5,Controlled,Yes,No,26,165,127,0.6842,73
+W01001879,Trowbridge 3,Oak meadow Driver,1,1,0.5,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,26,165,127,0.7368,73
+W01001878,Trowbridge 2,San derling Driver,1,1,1,1,Yes,Yes,1,1,0.5,Controlled,Yes,No,104,193,136,0.9211,188
+W01001878,Trowbridge 2,Eider Close,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,104,193,136,0.7632,188
+W01001877,Trowbridge 1,Willowdene Way,0.5,0.5,1,1,Yes,Yes,1,1,0,Controlled,Yes,Yes,141,114,87,0.8421,143
+W01001877,Trowbridge 1,Fairhaven Close,0.5,1,0,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,141,114,87,0.7105,143
+W01001882,Trowbridge 6,Fortran Road,1,1,1,1,Yes,Yes,1,1,1,Controlled,Yes,No,123,69,104,0.9474,177
+W01001882,Trowbridge 6,Cobal Road,1,1,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,123,69,104,0.7105,177
+W01001885,Trowbridge 9,Wentloog Avenue,1,0.5,1,1,Yes,Yes,1,1,0.5,Controlled,Yes,Yes,56,75,25,0.9211,102
+W01001885,Trowbridge 9,Newlands Road,0,0,1,0,Yes,Yes,0.5,0.5,0.5,Controlled,Yes,No,56,75,25,0.5526,102
+W01001821,Pen-Y-Lan 1,Pen-Y-Lane Place,0.5,1,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,177,105,124,0.7368,162
+W01001821,Pen-Y-Lan 1,Ty Draw Place,1,1,1,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,No,177,105,124,0.8684,162
+W01001822,Pen-Y-Lan 2,Earl's Court Road,0,0.5,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,134,64,50,0.5526,50
+W01001822,Pen-Y-Lan 2,Winchestev Avenue,1,1,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,134,64,50,0.7895,50
+W01001823,Pen-Y-Lan 3,KimberleyRoad,0.5,0,0.5,0.5,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,176,60,212,0.3316,16
+W01001823,Pen-Y-Lan 3,Amesbory Road,0.5,0.5,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,176,60,212,0.6842,16
+W01001824,Pen-Y-Lan 4,Alma Road,1,0,1,0.5,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,115,11,206,0.4053,15
+W01001824,Pen-Y-Lan 4,Cressy Road,0,1,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,115,11,206,0.6053,15
+W01001825,Pen-Y-Lan 5,Deri Road,0.5,0.5,1,1,Yes,Yes,0.5,0.5,0.5,Uncontrolled,N/A,No,95,5,76,0.7105,154
+W01001825,Pen-Y-Lan 5,Stall Court Avenue,1,1,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,95,5,76,0.8684,154
+W01001826,Pen-Y-Lan 6,Grafton Close,1,1,0.5,0.5,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,178,137,78,0.4421,67
+W01001826,Pen-Y-Lan 6,Lothian Crescent,1,1,1,1,Yes,Yes,1,1,0,Uncontrolled,N/A,Yes,178,137,78,0.9474,67
+W01001827,Pen-Y-Lan 7,Lady Mary Road,1,1,1,1,Yes,Yes,1,0.5,1,Controlled,Yes,Yes,185,113,100,0.9737,200
+W01001827,Pen-Y-Lan 7,MaryPort Road,1,1,0.5,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,185,113,100,0.8158,200
+W01001828,Pen-Y-Lan 8,Hampton Court Road,1,0.5,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,180,83,62,0.7368,73
+W01001828,Pen-Y-Lan 8,Southcourt Road,0.5,0.5,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,180,83,62,0.6842,73
+W01001829,Plasnewydd 1,KinCraig Street,1,0.5,1,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,94,81,216,0.6842,111
+W01001829,Plasnewydd 1,Keppach Street,1,0.5,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,94,81,216,0.8158,111
+W01001830,Plasnewydd 2,Cloude Road,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,62,44,157,0.8421,154
+W01001830,Plasnewydd 2,Connaught Road,0.5,0.5,1,0.5,Yes,Yes,0.5,1,1,Controlled,Yes,No,62,44,157,0.7368,154
+W01001831,Plasnewydd 3,Strathnairn Street,1,0,0.5,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,120,63,213,0.6316,99
+W01001831,Plasnewydd 3,Glenroy Street,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,120,63,213,0.8421,99
+W01001832,Plasnewydd 4,Bedford Street,0.5,0,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,86,29,103,0.6842,68
+W01001832,Plasnewydd 4,Russell Street,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,86,29,103,0.7105,68
+W01001833,Plasnewydd 5,Dakfield Street,1,1,0,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,88,20,187,0.7632,162
+W01001833,Plasnewydd 5,Snipe Street,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,88,20,187,0.8421,162
+W01001834,Plasnewydd 6,Rose Street,0.5,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,87,78,164,0.7895,177
+W01001834,Plasnewydd 6,Lily Street,1,1,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,87,78,164,0.8684,177
+W01001835,Plasnewydd 7,Elm Street,1,1,0.5,0.5,Yes,Yes,1,0.5,0,Controlled,N/A,No,70,24,82,0.7895,111
+W01001835,Plasnewydd 7,Teal Street,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,70,24,82,0.7105,111
+W01001836,Plasnewydd 8,Tydfil Place,1,0.5,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,114,72,159,0.6842,56
+W01001836,Plasnewydd 8,Boverfon Street,0.5,0.5,1,1,Yes,Yes,0.5,0.5,0,Controlled,N/A,No,114,72,159,0.6842,56
+W01001837,Plasnewydd 9,Violet rise,1,0,1,0,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,85,23,98,0.3868,21
+W01001837,Plasnewydd 9,Crwys Place,1,0,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,85,23,98,0.6579,21
+W01001838,Plasnewydd 10,Avabella Street,0.5,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,121,87,210,0.6579,138
+W01001838,Plasnewydd 10,Donald Street,1,0.5,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,121,87,210,0.8684,138
+W01001839,Plasnewydd 11,Inverness Place,1,1,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,93,38,193,0.7368,111
+W01001839,Plasnewydd 11,Moy Road,0.5,0.5,1,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,93,38,193,0.7632,111
+W01001737,Ely 1,Avcher Crescent,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,8,153,58,0.7105,102
+W01001737,Ely 1,Charteris Road,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,8,153,58,0.7632,102
+W01001738,Ely 2,Jackson Road,1,0,1,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,3,199,4,0.6316,99
+W01001738,Ely 2,Wilson Road,1,0.5,1,0.5,Yes,Yes,1,1,0.5,Controlled,Yes,No,3,199,4,0.8421,99
+W01001739,Ely 3,Red House Crescent,1,1,0.5,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,6,117,11,0.7632,138
+W01001739,Ely 3,Spinney Close,0.5,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,6,117,11,0.7632,138
+W01001740,Ely 4,Wheatly Road,1,1,0.5,1,Yes,Yes,0.5,1,0,Controlled,N/A,No,4,177,54,0.7632,102
+W01001740,Ely 4,CrossWays Road,0.5,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,4,177,54,0.7105,102
+W01001741,Ely 5,High Bony Road,1,0.5,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,1,182,32,0.8158,154
+W01001741,Ely 5,Seven oaks Road,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,1,182,32,0.7632,154
+W01001742,Ely 6,Nortage Road,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,11,155,102,0.8421,86
+W01001742,Ely 6,Hill Snook Road,1,0,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,11,155,102,0.6053,86
+W01001743,Ely 7,St fagan Court,1,1,0.5,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,125,215,43,0.8158,86
+W01001743,Ely 7,Stirling Road,1,0,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,125,215,43,0.6316,86
+W01001744,Ely 8,Caerwent Road,1,0.5,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,13,207,40,0.7368,33
+W01001744,Ely 8,Mostyyn Road,1,0.5,1,0.5,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,13,207,40,0.4421,33
+W01001745,Ely 9,Caedriglan Drive,1,0.5,1,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,156,178,31,0.7632,93
+W01001745,Ely 9,Jestyn Close,1,0.5,0.5,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,Yes,156,178,31,0.6842,93
+W01001746,Ely 10,Heol Mustan,0.5,0.5,1,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,23,91,192,0.7632,111
+W01001746,Ely 10,Penygarn Road,1,0,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,23,91,192,0.7368,111
+W01001702,Caerau 1,KnightSwell Road,1,0.5,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,64,206,30,0.7368,111
+W01001702,Caerau 1,The Sanctuary,1,0,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,64,206,30,0.7632,111
+W01001703,Caerau 2,Heol Trelai,1,0.5,1,1,Yes,Yes,1,1,1,Controlled,Yes,No,17,195,71,0.8947,200
+W01001703,Caerau 2,Heol Caerau,1,1,1,0.5,Yes,Yes,1,1,0.5,Controlled,Yes,No,17,195,71,0.8947,200
+W01001704,Caerau 3,Heol Solva,1,0.5,0.5,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,5,201,24,0.6316,29
+W01001704,Caerau 3,Heol Pennar,1,1,1,0,No,Yes,1,0.5,0,Uncontrolled,N/A,No,5,201,24,0.4605,29
+W01001705,Caerau 4,Heol-Y-Castell,1,1,1,0.5,Yes,Yes,1,1,1,Controlled,Yes,No,36,188,27,0.9211,177
+W01001705,Caerau 4,Heol Poystan,0.5,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,36,188,27,0.7368,177
+W01001706,Caerau 5,Chichester Way,1,0.5,0,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,69,96,156,0.6579,50
+W01001706,Caerau 5,Arles Road,0.5,1,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,69,96,156,0.6842,50
+W01001707,Caerau 6,Heol Ebwy,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,25,169,79,0.7895,188
+W01001707,Caerau 6,Harerford Way,1,1,1,1,Yes,Yes,1,1,0,Uncontrolled,N/A,No,25,169,79,0.8947,188
+W01001708,Caerau 7,Heol-ygaer,0.5,1,0.5,0.5,Yes,Yes,0.5,1,0.5,Controlled,Yes,No,12,212,147,0.7105,154
+W01001708,Caerau 7,Caerau Road,1,0.5,1,0.5,Yes,Yes,1,1,1,Controlled,Yes,No,12,212,147,0.8684,154
+W01001791,Llanishen 1,Kimberley terrace,1,0.5,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,161,139,172,0.7368,12
+W01001791,Llanishen 1,Melbourne road,1,1,1,0,No,Yes,0,0.5,0,Uncontrolled,N/A,No,161,139,172,0.245,12
+W01001792,Llanishen 2,Heol merlin,0.5,0.5,1,0.5,Yes,Yes,1,0,0,Uncontrolled,N/A,No,72,157,69,0.7105,86
+W01001792,Llanishen 2,Wingate drive,1,1,1,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,72,157,69,0.7368,86
+W01001797,Llanishen 7,Wolf Castle avenue,1,0.5,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,164,185,163,0.6579,73
+W01001797,Llanishen 7,Copperfield close,0.5,0.5,1,1,Yes,Yes,1,0.5,0,Controlled,N/A,No,164,185,163,0.7632,73
+W01001799,Llanishen 9,Everest walk,0.5,0,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,204,134,70,0.6842,56
+W01001799,Llanishen 9,Mill health drive,1,0.5,0,0.5,Yes,Yes,0.5,0.5,0.5,Uncontrolled,N/A,Yes,204,134,70,0.6842,56
+W01001800,Llanishen 10,Newborough avenue,0.5,0.5,1,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,78,214,75,0.6842,129
+W01001800,Llanishen 10,Blue house road,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,78,214,75,0.8421,129
+W01001949,Llanishen 11,Coed glas road,0.5,1,0.5,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,96,146,106,0.7105,143
+W01001949,Llanishen 11,Cilgerran cresent,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,96,146,106,0.8421,143
+W01001953,Llanishen 12,Crystal Glen,0.5,0.5,0.5,0,No,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,107,180,150,0.3316,24
+W01001953,Llanishen 12,Fishguard Road,1,1,0.5,0.5,Yes,Yes,0.5,0.5,0.5,Controlled,Yes,No,107,180,150,0.7368,24
+W01001802,Llanrumney 1,Instow place,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,65,127,175,0.8421,171
+W01001802,Llanrumney 1,Minehead road,1,1,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,65,127,175,0.7895,171
+W01001803,Llanrumney 2,Cheddar crescent,1,1,1,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,49,160,56,0.7368,111
+W01001803,Llanrumney 2,Chard avenue,0.5,0.5,1,0.5,Yes,Yes,1,0.5,0.5,Controlled,Yes,No,49,160,56,0.7632,111
+W01001804,Llanrumney 3,Thackeray crescent,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,45,159,99,0.7895,129
+W01001804,Llanrumney 3,Swift close,0.5,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,45,159,99,0.7368,129
+W01001805,Llanrumney 4,Cloveily crescent,0.5,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,57,143,38,0.6579,46
+W01001805,Llanrumney 4,Ball Lane,0.5,0,1,0,Yes,Yes,1,0,0.5,Controlled,Yes,No,57,143,38,0.6579,46
+W01001806,Llanrumney 5,Wide Combe drive,1,0.5,0.5,0.5,Yes,Yes,1,1,1,Controlled,Yes,No,108,166,36,0.8158,162
+W01001806,Llanrumney 5,Lynmouth crescent,1,1,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,108,166,36,0.7895,162
+W01001807,Llanrumney 6,Arnold avenue,0,0.5,1,0.5,Yes,Yes,1,0.5,0.5,Controlled,Yes,No,22,109,60,0.7105,111
+W01001807,Llanrumney 6,Brayford place,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,22,109,60,0.7895,111
+W01001808,Llanrumney 7,Bosweil close,0.5,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,9,102,138,0.7368,111
+W01001808,Llanrumney 7,Dickens avenue,1,1,0.5,0.5,Yes,Yes,1,0,0,Uncontrolled,N/A,No,9,102,138,0.7632,111
+W01001863,Rumney 1,Downtown rise,0.5,1,1,0.5,Yes,Yes,1,0,0.5,Controlled,Yes,No,99,61,190,0.7895,177
+W01001863,Rumney 1,Downtown road,1,0.5,1,1,Yes,Yes,1,0.5,1,Uncontrolled,Yes,No,99,61,190,0.8684,177
+W01001864,Rumney 2,Linden grave,1,0,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,143,156,128,0.7368,73
+W01001864,Rumney 2,Whitehall parode,0.5,1,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,143,156,128,0.6842,73
+W01001865,Rumney 3,Lamby way,0.5,1,1,1,Yes,Yes,0.5,1,0,Controlled,Yes,Yes,133,77,84,0.8158,86
+W01001865,Rumney 3,Glyn Rhymni,0.5,0.5,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,133,77,84,0.6316,86
+W01001866,Rumney 4,Mullins avenue,1,1,0,1,Yes,Yes,1,0.5,1,Controlled,Yes,No,42,129,17,0.8158,143
+W01001866,Rumney 4,Meadvale road,0,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,42,129,17,0.7368,143
+W01001867,Rumney 5,Penrhos crescent,0,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,20,152,72,0.6579,93
+W01001867,Rumney 5,Rhyl road,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,20,152,72,0.7895,93
+W01001868,Rumney 6,Colwyn road,0.5,1,0.5,0,Yes,Yes,1,0.5,0.5,Controlled,Yes,No,51,161,180,0.7368,111
+W01001868,Rumney 6,Goodwick road,1,0.5,1,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,51,161,180,0.7632,111
+W01001840,Pont Prennau 1,Allen close,0.5,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,91,123,51,0.7105,143
+W01001840,Pont Prennau 1,Hastings crescent,1,1,1,0.5,Yes,Yes,0.5,0.5,0.5,Controlled,Yes,Yes,91,123,51,0.8421,143
+W01001841,Pont Prennau 2,Cranbourne way,0.5,0.5,1,0,Yes,No,0,0.5,0,Uncontrolled,N/A,No,170,200,117,0.1934,13
+W01001841,Pont Prennau 2,Tarragon way,0.5,1,0.5,0.5,Yes,Yes,1,0.5,1,Controlled,Yes,No,170,200,117,0.7895,13
+W01001842,Pont Prennau 3,Graig - llwyn road,1,1,0.5,0.5,Yes,Yes,0,0.5,0.5,Controlled,Yes,No,188,181,137,0.4605,32
+W01001842,Pont Prennau 3,Maes - y - bryn road,0.5,0.5,1,0.5,Yes,Yes,1,0,0,Uncontrolled,N/A,No,188,181,137,0.7105,32
+W01001844,Pont Prennau 5,Tramore way,1,1,1,0.5,Yes,Yes,1,0.5,0.5,Uncontrolled,Yes,No,145,179,111,0.8684,193
+W01001844,Pont Prennau 5,Dungarvan drive,1,1,1,0.5,Yes,Yes,1,0.5,0,Controlled,Yes,No,145,179,111,0.8421,193
+W01002016,Pont Prennau 6,Almond drive,0.5,1,1,1,Yes,Yes,1,1,0,Uncontrolled,N/A,No,163,125,5,0.8421,171
+W01002016,Pont Prennau 6,Ambergate drive,1,1,0,0.5,Yes,Yes,1,0.5,1,Controlled,Yes,No,163,125,5,0.7895,171
+W01002017,Pont Prennau 7,Druidstone Road,0.5,1,1,0.5,Yes,Yes,1,1,0.5,Uncontrolled,N/A,No,131,95,46,0.8421,111
+W01002017,Pont Prennau 7,Began Road,0.5,0.5,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,131,95,46,0.6579,111
+W01002018,Pont prennau 8,Aston Close,1,0.5,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,190,141,154,0.7368,86
+W01002018,Pont prennau 8,The Maltings,0.5,0.5,1,1,Yes,Yes,0.5,1,0,Uncontrolled,N/A,No,190,141,154,0.7105,86
+W01001769,Heath 1,Eton court,1,0,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,217,187,214,0.6842,162
+W01001769,Heath 1,Crystal wood road,1,1,1,0.5,Yes,Yes,1,0.5,0.5,Uncontrolled,N/A,Yes,217,187,214,0.9211,162
+W01001770,Heath 2,Heathwood grove,1,0.5,1,0.5,Yes,Yes,1,0.5,0.5,Uncontrolled,N/A,No,138,149,45,0.8158,143
+W01001770,Heath 2,Heath mead,1,0,1,0.5,Yes,Yes,0.5,0.5,0.5,Uncontrolled,N/A,Yes,138,149,45,0.7368,143
+W01001771,Heath 3,St. Brigid road,0.5,1,0.5,0,Yes,Yes,1,0.5,0,Controlled,Yes,No,206,133,208,0.7105,129
+W01001771,Heath 3,St. Malo road,1,0.5,1,0.5,Yes,Yes,1,0.5,0.5,Uncontrolled,N/A,No,206,133,208,0.8158,129
+W01001772,Heath 4,Heol nest,0.5,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,174,67,148,0.7895,171
+W01001772,Heath 4,Kyle avenue,1,1,0.5,0.5,Yes,Yes,1,0.5,1,Uncontrolled,N/A,No,174,67,148,0.8421,171
+W01001773,Heath 5,Homelands road,1,1,1,1,Yes,Yes,1,0.5,0.5,Uncontrolled,Yes,No,151,98,166,0.8947,199
+W01001773,Heath 5,Phoenix way,1,0.5,1,0.5,Yes,Yes,1,1,1,Controlled,Yes,No,151,98,166,0.8684,199
+W01001774,Heath 6,St. Benedict crescent,0.5,0.5,1,0.5,Yes,No,0,0.5,0,Uncontrolled,N/A,No,194,128,191,0.2063,11
+W01001774,Heath 6,Tair erw road,1,1,0.5,0.5,Yes,Yes,0.5,0.5,0.5,Controlled,Yes,No,194,128,191,0.7368,11
+W01001775,Heath 7,Summerfield place,0.5,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,144,57,203,0.7895,129
+W01001775,Heath 7,Murrayfield road,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0.5,Uncontrolled,N/A,No,144,57,203,0.7368,129
+W01001776,Heath 8,St. Agatha road,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,Yes,No,186,90,144,0.8421,154
+W01001776,Heath 8,St. Agnes road,1,0,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,186,90,144,0.7368,154
+W01001848,Rhiwbina 1,Porthamal road,0.5,0.5,1,0.5,Yes,Yes,0.5,1,0,Uncontrolled,N/A,No,208,145,131,0.6842,111
+W01001848,Rhiwbina 1,Ty wern avenue,1,1,0.5,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,208,145,131,0.8158,111
+W01001849,Rhiwbina 2,Dany - graig,0.5,1,1,0,No,Yes,0.5,0.5,0,Controlled,N/A,No,182,126,23,0.3684,3
+W01001849,Rhiwbina 2,Tyla Teg,0.5,1,1,0,Yes,No,0,0.5,0,Uncontrolled,N/A,No,182,126,23,0.2192,3
+W01001850,Rhiwbina 3,Maes - y - Deri,0.5,0.5,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,214,132,194,0.6316,99
+W01001850,Rhiwbina 3,Heol - y - Bont,1,1,0.5,0.5,Yes,Yes,1,0,0.5,Controlled,N/A,Yes,214,132,194,0.8421,99
+W01001851,Rhiwbina 4,Heol - y - Nant,1,0.5,1,1,Yes,Yes,1,1,0.5,Controlled,Yes,No,165,121,94,0.8684,102
+W01001851,Rhiwbina 4,Leamington road,0.5,1,0,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,165,121,94,0.6053,102
+W01001852,Rhiwbina 5,Cefn Nant,1,0,0,0,Yes,Yes,0.5,0.5,0.5,Uncontrolled,N/A,No,200,110,110,0.5526,8
+W01001852,Rhiwbina 5,Heol Lichaf,0.5,0,1,0.5,Yes,No,0,0.5,0,Uncontrolled,N/A,No,200,110,110,0.1805,8
+W01001853,Rhiwbina 6,Loncae porth,0.5,0.5,0,0,Yes,Yes,1,0,0,Uncontrolled,N/A,No,207,154,196,0.5789,56
+W01001853,Rhiwbina 6,Heol Lewis,1,1,1,0.5,Yes,Yes,0.5,0.5,0.5,Controlled,Yes,No,207,154,196,0.7895,56
+W01001854,Rhiwbina 7,Mur Gwyn,1,0.5,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,189,135,158,0.6579,42
+W01001854,Rhiwbina 7,Rhos Llan,0.5,0,0.5,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,189,135,158,0.6053,42
+W01001846,Radyr 1,Fisherhill way,1,0.5,1,0,Yes,Yes,1,0,0.5,Uncontrolled,Yes,No,175,131,12,0.7632,177
+W01001846,Radyr 1,Taff Terrace,1,1,1,0.5,Yes,Yes,1,0,0.5,Controlled,Yes,Yes,175,131,12,0.8947,177
+W01001847,Radyr 2,Maes - y - Crofft,1,1,0.5,0.5,No,Yes,0.5,0,0,Uncontrolled,N/A,No,197,150,34,0.3684,42
+W01001847,Radyr 2,Chapel road,1,1,1,0.5,Yes,Yes,1,0.5,1,Controlled,Yes,No,197,150,34,0.8947,42
+W01001948,Radyr 3,Mellingriffith drive,1,1,1,0.5,Yes,Yes,1,0.5,0.5,Controlled,Yes,No,201,210,52,0.8684,188
+W01001948,Radyr 3,Ty Mawr road,1,0.5,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,201,210,52,0.8158,188
+W01001755,Gabalfa 1,Australia road,1,1,0.5,1,Yes,Yes,1,1,0,Controlled,Yes,No,168,71,217,0.8421,197
+W01001755,Gabalfa 1,Canada road,0.5,1,1,1,Yes,Yes,1,1,0,Controlled,N/A,Yes,168,71,217,0.8947,197
+W01001756,Gabalfa 2,Herbert street,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Controlled,Yes,No,92,88,101,0.7895,102
+W01001756,Gabalfa 2,Caerleon road,1,0.5,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,92,88,101,0.6842,102
+W01001757,Gabalfa 3,Maitlano street,0,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,132,42,197,0.6842,93
+W01001757,Gabalfa 3,Flaxland avenue,1,1,0.5,0.5,Yes,Yes,0.5,0.5,1,Controlled,Yes,No,132,42,197,0.7632,93
+W01001758,Gabalfa 4,Manor street,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,142,40,201,0.8947,49
+W01001758,Gabalfa 4,Summerfield avenue,1,0.5,1,0,No,Yes,1,0.5,0,Uncontrolled,N/A,No,142,40,201,0.4237,49
+W01001777,Lisvane 1,Heol - y - Delyn,1,0.5,0,0.5,Yes,Yes,0.5,0,0.5,Controlled,Yes,No,171,111,2,0.6053,111
+W01001777,Lisvane 1,Rowan way,1,1,1,1,Yes,Yes,1,1,0,Uncontrolled,N/A,No,171,111,2,0.8947,111
+W01001778,Lisvane 2,Cherry orchard road,0.5,0.5,0.5,0.5,Yes,Yes,1,0.5,0.5,Controlled,Yes,No,191,130,20,0.7105,143
+W01001778,Lisvane 2,Amberheart drive,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,191,130,20,0.8421,143
+W01001793,Lisvane 3,Fairthorn close,0,0.5,1,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,196,162,112,0.5789,25
+W01001793,Lisvane 3,CEFN ONN Meadows,0,0,0,0,Yes,Yes,1,0.5,0,Controlled,N/A,No,196,162,112,0.5,25
+W01001794,Lisvane 4,Roundel close,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,202,189,118,0.7895,40
+W01001794,Lisvane 4,Cheriton drive,1,0.5,1,0.5,Yes,Yes,0,0.5,0.5,Uncontrolled,N/A,No,202,189,118,0.4605,40
+W01001795,Lisvane 5,Have wood drive,0.5,0,0,0,Yes,Yes,1,1,0,Controlled,N/A,No,195,192,93,0.5789,73
+W01001795,Lisvane 5,Low field drive,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,195,192,93,0.8421,73
+W01001796,Lisvane 6,Mayfair drive,1,1,0.5,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,173,203,179,0.8684,162
+W01001796,Lisvane 6,Ragnail close,1,0.5,1,0.5,Yes,Yes,0.5,0.5,0.5,Uncontrolled,N/A,No,173,203,179,0.7368,162
+W01001798,Lisvane 7,Cornfield close,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,183,211,114,0.8947,193
+W01001798,Lisvane 7,Mayflower avenue,1,0.5,1,0.5,Yes,Yes,1,0,0,Uncontrolled,N/A,Yes,183,211,114,0.8158,193
+W01001699,Bute town 1,Maria street,1,0.5,0.5,0.5,Yes,Yes,0.5,0.5,0.5,Controlled,Yes,No,29,25,140,0.6842,93
+W01001699,Bute town 1,Alice street,0.5,1,0.5,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,29,25,140,0.7632,93
+W01001940,Bute town 2,Trade street,1,1,1,0.5,Yes,Yes,1,0.5,1,Controlled,Yes,No,140,10,28,0.8947,200
+W01001940,Bute town 2,Curran street,1,1,1,0.5,Yes,Yes,1,0.5,1,Controlled,Yes,No,140,10,28,0.8947,200
+W01001942,Bute town 3,Barquentine place,0.5,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,50,54,125,0.7368,154
+W01001942,Bute town 3,Schooner way,1,1,0.5,0.5,Yes,Yes,1,0.5,1,Controlled,Yes,No,50,54,125,0.8421,154
+W01001727,Pentrych & St. Fagans 1,Gwern Catherine,1,1,0,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,146,204,8,0.6316,5
+W01001727,Pentrych & St. Fagans 1,Lon yr hen ysgol,1,0,0.5,0,No,No,0,0,0.5,Uncontrolled,N/A,No,146,204,8,0.0632,5
+W01001728,Pentrych & St. Fagans 2,Parc - y - coed,1,0.5,1,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,218,217,141,0.7632,102
+W01001728,Pentrych & St. Fagans 2,Maes Cadwgan,0.5,0,1,0.5,Yes,Yes,1,0.5,0.5,Controlled,N/A,No,218,217,141,0.7105,102
+W01001729,Pentrych & St. Fagans 3,St. Fagans drive,0.5,1,1,1,Yes,Yes,1,0,0.5,Controlled,Yes,No,154,191,3,0.8158,73
+W01001729,Pentrych & St. Fagans 3,Crofft - y - Genau road,0,0.5,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,154,191,3,0.6053,73
+W01001819,Pentrych & St. Fagans 4,Heol penilwyn,0,1,0.5,0,No,Yes,0.5,0.5,0,Uncontrolled,N/A,No,199,218,145,0.2947,27
+W01001819,Pentrych & St. Fagans 4,Tyn - y - Coed road,1,1,1,0.5,Yes,Yes,0.5,0.5,0.5,Uncontrolled,Yes,No,199,218,145,0.7895,27
+W01001820,"Pentrych & St, Fagans 5",Cefn Bychan,1,0.5,0.5,0.5,Yes,Yes,1,0,0,Controlled,Yes,No,162,183,9,0.7105,35
+W01001820,"Pentrych & St, Fagans 5",Heol Danyrodyn,1,0.5,1,1,Yes,Yes,0,0.5,0.5,Controlled,Yes,No,162,183,9,0.4789,35
+W01001887,Whitchurch 1,Alfreda road,0.5,1,1,0.5,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,212,163,204,0.4421,31
+W01001887,Whitchurch 1,Church road,0.5,0.5,1,0.5,Yes,Yes,0.5,0.5,0.5,Controlled,Yes,No,212,163,204,0.6842,31
+W01001888,Whitchurch 2,Woodland road,1,0.5,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,152,176,73,0.7368,162
+W01001888,Whitchurch 2,Heol Booker,1,1,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,152,176,73,0.8684,162
+W01001889,Whitchurch 3,Heol Iestyn,1,1,0.5,0.5,Yes,Yes,0.5,1,0,Uncontrolled,N/A,No,150,103,134,0.7368,111
+W01001889,Whitchurch 3,Glan - y - nant road,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,150,103,134,0.7632,111
+W01001890,Whitchurch 4,Heol Dolwen,1,1,1,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,167,106,133,0.8158,50
+W01001890,Whitchurch 4,Violet place,0,0,0.5,0,Yes,Yes,1,0,0,Uncontrolled,N/A,No,167,106,133,0.5263,50
+W01001891,Whitchurch 5,Beatrice road,0.5,0.5,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,127,138,146,0.6316,46
+W01001891,Whitchurch 5,Blandon way,1,0.5,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,127,138,146,0.6842,46
+W01001892,Whitchurch 6,Heol Coed Cae,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,203,124,129,0.8421,23
+W01001892,Whitchurch 6,Heol Waun y nant,1,0.5,1,0,Yes,No,0,0,0,Uncontrolled,N/A,No,203,124,129,0.2063,23
+W01001893,Whitchurch 7,Merthyr road,0.5,1,1,0.5,Yes,Yes,0.5,0.5,1,Controlled,Yes,No,102,119,105,0.7632,73
+W01001893,Whitchurch 7,Ironbridge road,1,0.5,0.5,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,102,119,105,0.6579,73
+W01001894,Whitchurch 8,Coryton crescent,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,169,89,64,0.7895,151
+W01001894,Whitchurch 8,Heol pantycelyn,0.5,1,1,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,169,89,64,0.7632,151
+W01001895,Whitchurch 9,Heol chappell,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,77,167,57,0.8947,171
+W01001895,Whitchurch 9,Longwood drive,1,0.5,1,0,Yes,Yes,1,0,0,Controlled,Yes,No,77,167,57,0.7368,171
+W01001896,Whitchurch 10,Foreland road,0.5,1,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,205,144,205,0.7368,154
+W01001896,Whitchurch 10,St. Francis road,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,205,144,205,0.8421,154
+W01001779,Llandaff 1,Pwllmelin lane,0.5,1,0.5,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,193,136,120,0.7632,138
+W01001779,Llandaff 1,Llandaff chase,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,193,136,120,0.7632,138
+W01001780,Llandaff 2,Greenwood road,0,0.5,1,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,198,147,130,0.5789,50
+W01001780,Llandaff 2,Whitehall road,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,198,147,130,0.7632,50
+W01001781,Llandaff 3,Caewall road,1,1,1,0.5,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,Yes,160,62,152,0.8158,129
+W01001781,Llandaff 3,Howell's Crescent,1,0.5,0,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,No,160,62,152,0.7105,129
+W01001782,Llandaff 4,Bishops place,0.5,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,187,101,113,0.7368,129
+W01001782,Llandaff 4,Vaughan avenue,1,1,1,1,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,187,101,113,0.7895,129
+W01001783,Llandaff 5,Buckley close,1,0,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,216,198,211,0.6842,28
+W01001783,Llandaff 5,De braose close,1,0.5,1,0,No,Yes,1,0,0,Uncontrolled,N/A,No,216,198,211,0.4053,28
+W01001784,Llandaff 6,Pritchard close,1,1,1,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,192,197,189,0.8684,177
+W01001784,Llandaff 6,Douglas close,1,1,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,192,197,189,0.7895,177
+W01001730,Cyncoed 1,Woodvale avenue,0.5,0,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,215,172,86,0.6842,102
+W01001730,Cyncoed 1,Briarwood drive,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,215,172,86,0.7895,102
+W01001731,Cyncoed 2,Bettws - y - coed road,1,1,0.5,0.5,Yes,Yes,1,0,0.5,Controlled,Yes,No,211,173,199,0.7895,30
+W01001731,Cyncoed 2,Llyswen road,1,1,0,0,No,Yes,0.5,0.5,0,Uncontrolled,N/A,No,211,173,199,0.3316,30
+W01001732,Cyncoed 3,Duffryn avenue,0.5,1,1,0.5,Yes,Yes,0,0.5,0,Uncontrolled,N/A,No,184,118,151,0.4421,22
+W01001732,Cyncoed 3,Nantfawr crescent,0.5,0.5,0,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,184,118,151,0.6053,22
+W01001733,Cyncoed 4,Werngoch road,1,1,0,0.5,Yes,Yes,1,1,0,Uncontrolled,N/A,No,172,171,108,0.7632,41
+W01001733,Cyncoed 4,Rannoch drive,1,1,1,0.5,Yes,Yes,0,1,0,Uncontrolled,N/A,No,172,171,108,0.4974,41
+W01001734,Cyncoed 5,Tyrwhitt crescent,0.5,0,1,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,210,196,116,0.5789,42
+W01001734,Cyncoed 5,Keyes avenue,0,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,210,196,116,0.6842,42
+W01001735,Cyncoed 6,Hunters ridge,1,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,179,170,37,0.7895,56
+W01001735,Cyncoed 6,Huron crescent,1,0.5,0,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,179,170,37,0.5789,56
+W01001736,Cyncoed 7,Sherborne avenue,1,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,209,202,109,0.8947,188
+W01001736,Cyncoed 7,Celyn grove,0.5,1,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,209,202,109,0.7895,188
+W01001809,Pentwyn 1,Springwood,1,1,1,1,Yes,Yes,1,1,0,Uncontrolled,N/A,No,98,208,6,0.8947,193
+W01001809,Pentwyn 1,Hillrise,1,1,0.5,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,98,208,6,0.8158,193
+W01001810,Pentwyn 2,Werngoch west,1,1,0.5,1,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,27,122,49,0.8158,143
+W01001810,Pentwyn 2,Glyncoed road,0.5,1,1,0.5,Yes,Yes,0.5,0.5,0.5,Controlled,Yes,No,27,122,49,0.7368,143
+W01001811,Pentwyn 3,Kestvel close,1,1,1,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,10,84,61,0.7368,19
+W01001811,Pentwyn 3,Hawfinch close,0.5,0,1,0,No,Yes,0.5,0.5,0,Uncontrolled,N/A,No,10,84,61,0.2947,19
+W01001812,Pentwyn 4,Pennsylvania,1,1,1,1,Yes,Yes,1,1,0,Uncontrolled,N/A,No,66,175,67,0.8947,171
+W01001812,Pentwyn 4,Brynnedw,1,1,0,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,66,175,67,0.7368,171
+W01001813,Pentwyn 5,Cincoln court,0.5,0.5,1,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,30,151,95,0.7368,36
+W01001813,Pentwyn 5,Coed - y - gores,1,1,0.5,0,Yes,Yes,0,0.5,0,Controlled,Yes,Yes,30,151,95,0.4605,36
+W01001814,Pentwyn 6,Wellwood,1,0.5,1,0,Yes,Yes,0.5,0.5,0,Uncontrolled,N/A,No,100,164,126,0.6842,73
+W01001814,Pentwyn 6,Awel mor,1,0.5,0.5,0.5,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,100,164,126,0.7368,73
+W01001815,Pentwyn 7,Azalea close,0.5,1,1,0.5,Yes,Yes,0.5,0,0,Uncontrolled,N/A,No,128,80,88,0.6842,93
+W01001815,Pentwyn 7,Forysthia drive,1,1,0.5,0.5,Yes,Yes,1,0,0,Uncontrolled,N/A,No,128,80,88,0.7632,93
+W01001816,Pentwyn 8,Bryn Heulog,1,1,0.5,0,Yes,Yes,1,1,0,Uncontrolled,N/A,No,71,140,90,0.7895,14
+W01001816,Pentwyn 8,Bryn Haidd,0.5,1,1,0.5,Yes,No,0,0,0,Uncontrolled,N/A,No,71,140,90,0.2192,14
+W01001817,Pentwyn 9,Bryn Pinwyddenl,1,0.5,0,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,Yes,103,94,81,0.7105,73
+W01001817,Pentwyn 9,Bryn Cyn,0.5,1,0.5,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,103,94,81,0.7105,73
+W01001818,Pentwyn 10,Goldcrest Drive,1,1,0,0.5,Yes,Yes,0.5,0.5,0.5,Controlled,Yes,No,84,168,96,0.6842,39
+W01001818,Pentwyn 10,Linnet Close,0,0,0.5,0,Yes,Yes,1,0.5,0,Uncontrolled,N/A,No,84,168,96,0.5526,39
